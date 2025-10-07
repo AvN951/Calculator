@@ -1,0 +1,28 @@
+body{
+    font-family:Roboto, Arial;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.output{
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 10px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: fit-content;
+}
+
+.buttons{
+    display:grid;
+    
+}

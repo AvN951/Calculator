@@ -36,7 +36,7 @@ body{
     width: 90%;
 }
 
-button{
+.btn{
     margin: 3px;
     font-size: 28px;
     border-radius: 10px;
@@ -46,11 +46,10 @@ button{
     cursor: pointer;
 }
 
-.btna{
+.btn:hover{
+    filter: brightness(1.2);
+}
+.orangebtn{
     background-color: orange;
 }
 
-button.eqlbtn{
-    grid-column: span 2;
-    background-color: orange;
-}

@@ -12,31 +12,31 @@
     </head>
     <body>
         <div class="container">
-            <div class="output">544</div>
+            <div class="output"></div>
             <div class="buttons">
-                <button class="btna">C</button>
-                <button class="btna">←</button>
-                <button class="btna">%</button>
-                <button class="btna">÷</button>
+                <button class="btn orangebtn" onclick="calculation= '' 
+                calculate('')">C</button>
+                <button class="btn orangebtn" onclick="calculate('%')">%</button>
+                <button class="btn orangebtn" onclick="calculate('/')">÷</button>
+                <button class="btn orangebtn" onclick="calculate('*')">×</button>
+
+                <button class="btn" onclick="calculate('7')">7</button>
+                <button class="btn" onclick="calculate('8')">8</button>
+                <button class="btn" onclick="calculate('9')">9</button>
+                <button class="btn orangebtn" onclick="calculate('-')">−</button>
                 
-                <button class="btn">7</button>
-                <button class="btn">8</button>
-                <button class="btn">9</button>
-                <button class="btna">×</button>
+                <button class="btn" onclick="calculate('4')">4</button>
+                <button class="btn" onclick="calculate('5')">5</button>
+                <button class="btn" onclick="calculate('6')">6</button>
+                <button class="btn orangebtn" onclick="calculate('+')">+</button>
                 
-                <button class="btn" >4</button>
-                <button class="btn" >5</button>
-                <button class="btn" >6</button>
-                <button class="btna" >−</button>
-                
-                <button class="btn" >1</button>
-                <button class="btn" >2</button>
-                <button class="btn" >3</button>
-                <button class="btna" >+</button>
+                <button class="btn" onclick="calculate('1')">1</button>
+                <button class="btn" onclick="calculate('2')">2</button>
+                <button class="btn" onclick="calculate('3')">3</button>
+                <button class="btn orangebtn eqlbtn" onclick="equalbtn()">=</button>
                 
                 <button class="btn">0</button>
                 <button class="btn">.</button>
-                <button class="eqlbtn" >=</button>
         </div>
     </body>
 </html>
